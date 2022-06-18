@@ -22,5 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.front, name="front"),
     path('api/order/', views.OrderListCreate.as_view()),
-    path('run/', views.upData),
 ]
