@@ -4,7 +4,7 @@ from .dollar import get_dollar
 import datetime
 from .models import Orders
 import requests
-from project1.settings import BOT_TOKEN, CHAT_ID
+from app.settings import BOT_TOKEN, CHAT_ID
 
 
 def update_data():
